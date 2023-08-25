@@ -33,7 +33,7 @@ def adjust_srt_file(filename, delay_milliseconds, output_filename):
         out_file.write(adjusted_content)
 
 # main
-filename = 'path_to_your_srt_file.srt' # to be changed to your original srt file
-delay_milliseconds = 5500  # like delay 5500ms
+filename = 'path_to_your_srt_file.srt' # change to your own srt file
+delay_milliseconds = 5500  # how many milliseconds shift is required，like delay 5500ms, minus is ok
 output_filename = 'adjusted_subtitle.srt' # output file
 adjust_srt_file(filename, delay_milliseconds, output_filename)
